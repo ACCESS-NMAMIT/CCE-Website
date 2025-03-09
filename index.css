@@ -178,14 +178,18 @@ footer {
     margin-top: 0; /* Optional spacing from the main content */
 }
 
+footer a {
+    font-weight: bold; /* Makes the text bold */
+    color: #ffffff; /* White color for better visibility */
+    text-decoration: underline; /* Adds an underline to show it's a clickable link */
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Changes color to yellow on hover */
+}
+
 :root {
     --bg-color: #ffffff;
     --text-color: #000000;
 }
-
-/* Dark Mode */
-.dark-mode {
-    --bg-color: #121212;
-    --text-color: #ffffff;
-}
-
